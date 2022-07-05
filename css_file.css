@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: black;
+    border-radius: 15px;
+}
+.navbar ul{
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px;
+    margin: 13px 20px;
+}
+.navbar li a{
+    display: block;
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color:rgb(111, 255, 0);
+}
+.searchbox{
+    float: right;
+    padding: 13px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 3px 5px;
+}
+.top{
+    margin: auto;
+    border: 2px solid red;
+    width: 15%;
+}
+#search_btn{
+    height: 30px;
+    width: 30px;
+}
+#search_image{
+    height: 20px;
+    width: 20px;
+}
